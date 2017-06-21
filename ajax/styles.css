@@ -1,0 +1,78 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #7D6169;
+	background-attachment: fixed;
+	font-family: arial;
+}
+section {
+	width: 100%;
+	height: auto;
+}
+.info-card {
+	display: block;
+	margin: auto;
+	background-color: #E9EAE2;
+	border-radius: 0.8rem;
+	min-height: 4rem;
+	width: 60%;
+	margin-top: 3rem;
+	padding: 1rem;
+	box-shadow: 0px 0px 2rem rgba(33,36,52,0.4);
+}
+#main-presentation {
+	position: fixed;
+	display: block;
+	height: 100%;
+	width: 100%;
+	overflow-y: auto;
+	margin-top: -7rem;
+	padding-top: 7rem;
+	z-index: -1;
+}
+#main-presentation::-webkit-scrollbar {
+	display: none;
+}
+#search-container {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding-bottom: 2rem;
+	background-color: rgba(125,97,105,0.8);
+	padding-top: 3rem;
+}
+#search-container input {
+	display: block;
+	height: 2rem;
+	font-size: 1.2rem;
+	border-radius: 1rem;
+	width: 50%;
+	border: none;
+	padding: 0.2rem 1rem;
+	margin: auto;
+	background-color: #E9EAE2;
+	text-transform: uppercase;
+	text-align: center;
+}
+#search-container input:focus {
+	
+	background-color: white;
+
+}
+#search-btn {
+	display: block;
+	height: 1.8rem;
+	border-radius: 0.5rem;
+	width: 10rem%;
+	border: none;
+	padding: 0.2rem 1rem;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E7BB41;
+	color: #393E41;
+}
